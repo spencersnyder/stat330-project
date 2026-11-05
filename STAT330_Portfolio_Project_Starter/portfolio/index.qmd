@@ -14,6 +14,10 @@ This template suggests one way to tell the story. You may rename, combine, or re
 
 ## The question
 
+Major League Baseball front offices invest heavily in pitcher health and workload optimization, making it vital to understand how physical fatigue and command truly impact scoring without relying on crude heuristics. This study investigates the focused research question: How effectively do a starting pitcher's workload and command, after controlling for pitch velocity and spin rate, predict runs allowed per start? Tailored for baseball analytics professionals and coaching staff, the analysis examines the September 2025 MLB regular-season setting using Statcast game logs retrieved via the baseballr package, where the observational unit is an individual starting pitcher appearance.
+
+The primary response variable is total runs allowed per start, evaluated against key predictors including total pitch count, walks, strikeouts, average velocity, and average spin rate. A crucial data limitation is managerial selection bias (survival bias)—because struggling pitchers are systematically pulled early from games, a simple baseline model yields a counterintuitive negative association between pitch count and runs allowed, underscoring the need to control for command and pitch quality.
+
 **In one or two short paragraphs, introduce the setting, audience, focused research question, data source, observational unit, response, important predictors, and one important data limitation. Lead with what makes the question worth answering.**
 
 ## What the baseline shows
