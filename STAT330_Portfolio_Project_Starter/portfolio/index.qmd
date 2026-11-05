@@ -1,7 +1,7 @@
 ---
-title: "Replace with a specific, informative title"
+title: "MLB Pitching Workload"
 subtitle: "Replace with one sentence that tells readers why the question matters"
-author: "Replace with all group members' names"
+author: "Blake Call, Spencer Snyder"
 date: last-modified
 description: "Replace with a brief description for link previews."
 ---
