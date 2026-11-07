@@ -2743,22 +2743,22 @@ Tip
 <h2 class="anchored" data-anchor-id="the-question">The question</h2>
 <p><strong>In one or two short paragraphs, introduce the setting, audience, focused research question, data source, observational unit, response, important predictors, and one important data limitation. Lead with what makes the question worth answering.</strong></p>
 <p>Question: How effectively do a starting pitcher's workload (pitch count) and metrics (walks and strikeouts), after controlling for average velocity and spin rate, predict the number of runs allowed per start in September of 2025?
-
+</p> <p>
 Intended Audience: Major League Baseball (MLB) front-office, pitching coaches, and player development staff.
-
+</p> <p>
 Why the Answer Matters: Understanding the connection between pitch count, walks/strikeouts, and velocity/spin rate allows teams to optimize pitch counts, identify the exact threshold where performance degrades, and make more informed, data-driven decisions regarding in-game bullpen management.
-
+</p> <p>
 Response Variable (Y): Runs allowed per starting appearance. Important Predictors (X):Pitch Count: Measures cumulative workload and fatigue. Walks (BB): Measures control and defensive lapses. Strikeouts (SO): Measures swing-and-miss dominance. Average Velocity: Captures physical power. Average Spin Rate: Captures pitch movement and deception.
 Working Source / Citation: Data is retrieved programmatically from MLB Advanced Media (Baseball Savant) using the baseballr R package (Petti & Gilani).
-
+</p> <p>
 Permission & Ethics: The data is publicly available for research and educational purposes. Because it records professional athletes' public on-field performance metrics, there are no private citizen privacy issues, consent restrictions, or ethical concerns.
-
+</p> <p>
 Observational Unit: A single starting pitcher appearance (one starting assignment for an individual pitcher in a single regular-season MLB game).Dimensions: The filtered and aggregated dataset contains approximately $300$ to $500$ rows (representing starting pitcher outings over a concise sample window, such as a two-week window) across $6$ columns containing the response and candidate predictors.
-
+</p> <p>
 Response Variable (Y): Total runs allowed (runs_allowed) by the starting pitcher during their outing.Candidate Predictors (X):Pitch Count (pitch_count): Total pitches thrown in the appearance (workload/fatigue proxy). Walks (walks): Total walks surrendered (command/control metric). Strikeouts (strikeouts): Total strikeouts recorded (dominance metric). Average Velocity (avg_velocity): Mean velocity of pitches thrown during the outing (raw power metric).Average Spin Rate (avg_spin_rate): Mean spin rate of pitches thrown during the outing (movement/deception metric).
-
+</p> <p>
 Collection Process: Captured automatically across all major league ballparks via advanced optical and radar tracking hardware, then compiled into game logs by MLB Advanced Media.
-
+</p> <p>
 Evidence It Can Answer the Question: The dataset directly records both physical output variables and workload/result metrics on a consistent per-start observational scale, providing the exact empirical variance required to evaluate how fatigue and command influence run prevention.
 </p>
 </section>
